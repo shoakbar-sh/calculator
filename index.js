@@ -27,13 +27,13 @@ odd.addEventListener('keyup', (e) => {
    }
 })
 
-function calc() {
+function button() {
    let son = document.getElementById("son").value,
       user = document.getElementById("user").value,
       odd = document.getElementById("odd").value,
       chek = "";
    if (user == "+") {
-      chek = son + odd;
+      chek = ((+son) + (+odd));
    } else if (user == "/") {
       chek = son / odd;
    } else if (user == "*") {

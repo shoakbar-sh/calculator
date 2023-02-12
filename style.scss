@@ -30,20 +30,20 @@ body {
       letter-spacing: 2px;
    }
 
-   button{
+   button {
       margin-left: 305px;
       padding: 15px 50px;
-      background-color:rgb(4, 67, 74);
+      background-color: rgb(4, 67, 74);
       color: white;
       border: none;
       border-radius: 5px;
 
-      &:hover{
-      background-color:rgb(12, 138, 152);
+      &:hover {
+         background-color: rgb(12, 138, 152);
       }
    }
 
-   p{
+   p {
       text-align: center;
       margin-top: 30px;
       font-size: 30px;
@@ -71,50 +71,99 @@ form {
 
 
 @media only screen and (max-width: 376px) {
-   
-.conteiner {
-   width: 376px;
-   margin: 0 auto;
-   padding: 0px;
-   padding-top: 100px;
-}
 
-.main {
-   background-color: white;
-   width: 350px;
-   height: 400px;
-   margin: auto;
-   border-radius: 10px;
-
-   h1 {
-      padding-top: 20px;
-      font-size: 25px;
+   .conteiner {
+      width: 375px;
+      margin: 0 auto;
+      padding: 0px;
+      padding-top: 100px;
    }
 
-   button{
-      margin-left: 120px;
-      padding: 15px 35px;
+   .main {
+      background-color: white;
+      width: 350px;
+      height: 400px;
+      margin: auto;
+      border-radius: 10px;
+
+      h1 {
+         padding-top: 20px;
+         font-size: 25px;
+      }
+
+      button {
+         margin-left: 120px;
+         padding: 15px 35px;
+      }
+
+      p {
+         text-align: center;
+         margin-top: 20px;
+         font-size: 30px;
+      }
    }
 
-   p{
-      text-align: center;
+   form {
       margin-top: 20px;
-      font-size: 30px;
-   }
-}
 
-form {
-   margin-top: 20px;
+      label {
+         margin-bottom: 20px;
 
-   label {
-      margin-bottom: 20px;
+         input {
+            width: 300px;
+            height: 45px;
+            padding-left: 20px;
 
-      input {
-         width: 300px;
-         height: 45px;
-         padding-left: 20px;
-
+         }
       }
    }
 }
+
+@media only screen and (max-width: 361px) {
+
+   .conteiner {
+      width: 361px;
+      margin: 0 auto;
+      padding: 0px;
+      padding-top: 100px;
+   }
+
+   .main {
+      background-color: white;
+      width: 330px;
+      height: 400px;
+      margin: auto;
+      border-radius: 10px;
+
+      h1 {
+         padding-top: 20px;
+         font-size: 25px;
+      }
+
+      button {
+         margin-left: 110px;
+         padding: 15px 35px;
+      }
+
+      p {
+         text-align: center;
+         margin-top: 20px;
+         font-size: 30px;
+      }
+   }
+
+   form {
+      margin-top: 20px;
+
+      label {
+         margin-bottom: 20px;
+
+         input {
+            width: 300px;
+            height: 45px;
+            padding-left: 20px;
+
+         }
+      }
+   }
 }
